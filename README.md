@@ -2,10 +2,6 @@
 
 Este proyecto simula el acceso concurrente de varios coches a un aparcamiento con plazas limitadas, utilizando la clase `Semaphore` de Java para controlar el acceso a los recursos compartidos. El objetivo es demostrar cómo gestionar correctamente la sincronización entre hilos en un entorno multihilo.
 
-## 🧠 ¿Por qué usar Semaphore?
-
-Elegí `Semaphore` porque permite controlar el número de accesos simultáneos a un recurso limitado (en este caso, las plazas del aparcamiento) de forma sencilla y segura. A diferencia de `synchronized`, que solo permite exclusión mutua, `Semaphore` permite múltiples accesos concurrentes hasta un límite definido. También es más intuitivo que `wait()/notify()` y más ligero que `ReentrantLock` para este tipo de problema.
-
 ## 🛠️ Estructura del proyecto
 
 - **Aparcamiento.java**: Gestiona el semáforo y controla el número de plazas ocupadas.
