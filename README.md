@@ -9,7 +9,5 @@ Este proyecto simula el acceso concurrente de varios coches a un aparcamiento co
 - **PrincipalParking.java**: Punto de entrada del programa, crea el aparcamiento y lanza los hilos.
 
 ## ▶️ Cómo ejecutar
+1. Ejecuta en el IDE desde la clase `PrincipalParking`.
 
-1. Compila los tres archivos Java.
-2. Ejecuta `PrincipalParking`.
-3. Observa en consola cómo los coches compiten por las plazas y se sincronizan correctamente.
